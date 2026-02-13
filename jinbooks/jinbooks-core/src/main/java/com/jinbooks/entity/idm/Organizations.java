@@ -45,7 +45,7 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @NoArgsConstructor
-@TableName("JBX_ORGANIZATIONS")
+@TableName("jbx_organizations")
 public class Organizations extends BaseEntity implements Serializable {
 
     @Serial
