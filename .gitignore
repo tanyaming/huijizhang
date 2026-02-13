@@ -26,6 +26,12 @@ classpath-data.json
 *.log.*
 **/logs/**
 
+# Build artifacts
+3rdpartylicenses.txt
+
+# Vite cache
+**/.vite/**
+
 */jdk/*
 
 */org/apache/mybatis/jpa/**
